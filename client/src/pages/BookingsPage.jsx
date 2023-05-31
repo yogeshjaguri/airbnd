@@ -14,6 +14,7 @@ export default function BookingsPage() {
     });
   }, []);
   return (
+    
     <div>
       <AccountNav />
       <div>
@@ -40,5 +41,6 @@ export default function BookingsPage() {
         ))}
       </div>
     </div>
+    
   );
 }
